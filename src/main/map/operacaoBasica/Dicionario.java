@@ -1,4 +1,4 @@
-package main.map.OperacaoBasica;
+package main.map.operacaoBasica;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,13 +9,6 @@ public class Dicionario {
 
     public Dicionario() {
         this.dicionarioMap = new HashMap<>();
-    }
-
-    @Override
-    public String toString() {
-        return "Dicionario{" +
-                "dicionarioMap=" + dicionarioMap +
-                '}';
     }
 
     public void adicionarPalavra(String palavra, String definicao){
